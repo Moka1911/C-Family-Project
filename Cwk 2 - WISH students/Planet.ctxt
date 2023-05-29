@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Planet
+comment0.text=\r\n\ An\ planet\ is\ part\ of\ a\ STAR\ resort.Each\ planet\ has\ a\ name,\ \ a\ luxury\ rating\r\n\ and\ a\ capacity\ which\ represents\ the\ maximum\ number\ of\ people(permits)\ who\ can\ be\ on\ the\ \ \r\n\ planet\ at\ any\ one\ time.\ Each\ planet\ must\ maintain\ a\ list\ of\ all\ people\ (permits)\r\n\ currently\ on\ the\ planet.\ These\ lists\ are\ updated\ whenever\ permits\ enter\ or\ leave\ \r\n\ an\ planet,so\ that\ it\ is\ always\ possible\ to\ say\ how\ many\ people\ (permits)\ are\ on\ the\ planet\ \r\n\ and\ who\ they\ are.\r\n\ \r\n\ @author\ (Coding\ Mohamed\ Shaheen,\ Supervising\ Eman\ Aziz)\ \r\n\ @version\ (11/04/2022)\r\n
+comment1.params=ref_no\ planetName\ luxury_Rating\ max_capacity
+comment1.target=Planet(int,\ java.lang.String,\ int,\ int)
+comment10.params=permit
+comment10.target=java.lang.String\ get_permit_details(Permit)
+comment11.params=
+comment11.target=java.lang.String\ to_String()
+comment2.params=
+comment2.target=int\ get_planetno()
+comment3.params=
+comment3.target=java.lang.String\ get_planetname()
+comment4.params=
+comment4.target=int\ get_planetRating()
+comment5.params=permit
+comment5.target=void\ enter(Permit)
+comment6.params=permit
+comment6.target=boolean\ permit_exist(Permit)
+comment7.params=permit
+comment7.target=void\ leave(Permit)
+comment8.params=
+comment8.target=boolean\ is_full_capacity()
+comment9.params=
+comment9.target=java.lang.String\ get_permit_list()
+numComments=12

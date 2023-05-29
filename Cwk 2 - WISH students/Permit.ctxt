@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Permit
+comment0.text=\r\n\ A\ Permit\ has\ an\ id\ number,\ name,\ a\ luxury\ rating\ and\ number\ of\ credits.\r\n\ \r\n\ @author\ (Coding\ Eman\ Aziz,\ Supervising\ Mohamed\ Shaheen)\ \r\n\ @version\ (09/04/2022)\r\n
+comment1.params=permitID\ guestName\ luxuryRating\ Credits
+comment1.target=Permit(int,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=int\ get_permitID()
+comment3.params=
+comment3.target=int\ get_luxuryRating()
+comment4.params=
+comment4.target=int\ get_credits()
+comment5.params=topup_credits
+comment5.target=void\ add_credits(int)
+comment6.params=deducted_credits
+comment6.target=void\ deduct_credits(int)
+comment7.params=charges
+comment7.target=boolean\ check_credit(int)
+comment8.params=
+comment8.target=java.lang.String\ to_String()
+numComments=9
